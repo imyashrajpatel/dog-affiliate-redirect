@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=http://1.offeryp_brainydogs.pay.clickbank.net/?cbskin=19833&coupon=BRAINYDOG&cbeor=1620">
-    <title>Redirecting...</title>
-</head>
-<body>
-</body>
-</html>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^https://www.braintraining4dogs.com/get-btfd/?hop=gtambelini$
+  RewriteRule ^(.*)$ https://www.braintraining4dogs.com/get-btfd/?hop=gtambelini/$1 [R=301,L]
+</IfModule>
